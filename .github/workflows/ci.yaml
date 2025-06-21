@@ -22,7 +22,7 @@ jobs:
 
       - name: Restore and Test .NET Backend
         run: |
-          cd api
+          cd api/Basic3Tier.Core
           dotnet restore
           dotnet test --no-build --verbosity normal
 
